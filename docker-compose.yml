@@ -6,7 +6,7 @@ services:
     container_name: yprompt
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8081:80"
       - "443:443"
     volumes:
       - ./data:/app/data
