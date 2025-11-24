@@ -10,7 +10,7 @@ services:
     volumes:
       - ./data:/app/data
     environment:
-      - DOMAIN=yourdomain.com
+      # - DOMAIN=yourdomain.com
       - SECRET_KEY=your-random-secret-key
       - LINUX_DO_CLIENT_ID=your_client_id
       - LINUX_DO_CLIENT_SECRET=your_client_secret
